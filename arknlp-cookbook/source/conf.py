@@ -36,9 +36,7 @@ extensions = [
     "sphinx.ext.coverage",
     "sphinx.ext.napoleon",
     "recommonmark",
-    "sphinx.ext.viewcode",
-    "ark-nlp",
-    "pandas"
+    "sphinx.ext.viewcode"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
