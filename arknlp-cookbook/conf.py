@@ -12,7 +12,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../ark_nlp/'))
+sys.path.insert(0, os.path.abspath('../ark_nlp/'))
 
 
 
