@@ -12,7 +12,8 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../'))
+sys.path.insert(0, os.path.abspath('../../ark_nlp/'))
+
 
 
 # -- Project information -----------------------------------------------------
@@ -22,7 +23,7 @@ copyright = '2021, Xiang Wang'
 author = 'Xiang Wang'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.3'
+release = '0.0.6'
 
 
 # -- General configuration ---------------------------------------------------
@@ -53,7 +54,10 @@ source_suffix = [".rst", ".md"]
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
+locale_dirs = ['locale/']
+gettext_compact = False
 language = 'zh_CN'
+add_module_names = False
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
