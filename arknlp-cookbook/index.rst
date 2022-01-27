@@ -19,15 +19,15 @@
    :maxdepth: 1
    :caption: API Reference
    
-   ark_nlp.model按实际NLP任务封装常用的模型，方便调用 <api/ark_nlp.model>
-   ark_nlp.dataset封装数据加载、处理和转化等功能 <api/ark_nlp.dataset>
-   ark_nlp.nn封装一些完整的神经网络模型 <api/ark_nlp.nn>
-   ark_nlp.processor封装分词器、词典和构图器等 <api/ark_nlp.processor>
-   ark_nlp.factory封装损失函数、优化器、训练和预测等功能 <api/ark_nlp.factory>
-   ark_nlp.model.tc文本分类 <api/ark_nlp.model.tc>
-   ark_nlp.model.tm文本匹配 <api/ark_nlp.model.tm>
-   ark_nlp.model.ner命名实体识别 <api/ark_nlp.model.ner>
-   ark_nlp.model.re关系抽取 <api/ark_nlp.model.re>
+   ark_nlp.model按实际NLP任务封装常用的模型，方便调用 <source/ark_nlp.model>
+   ark_nlp.dataset封装数据加载、处理和转化等功能 <source/ark_nlp.dataset>
+   ark_nlp.nn封装一些完整的神经网络模型 <source/ark_nlp.nn>
+   ark_nlp.processor封装分词器、词典和构图器等 <source/ark_nlp.processor>
+   ark_nlp.factory封装损失函数、优化器、训练和预测等功能 <source/ark_nlp.factory>
+   ark_nlp.model.tc文本分类 <source/ark_nlp.model.tc>
+   ark_nlp.model.tm文本匹配 <source/ark_nlp.model.tm>
+   ark_nlp.model.ner命名实体识别 <source/ark_nlp.model.ner>
+   ark_nlp.model.re关系抽取 <source/ark_nlp.model.re>
 
 Indices and tables
 ====================
