@@ -12,7 +12,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../ark_nlp/'))
+sys.path.insert(0, os.path.abspath('../'))
 
 
 
@@ -39,6 +39,11 @@ extensions = [
     "recommonmark",
     "sphinx.ext.viewcode"
 ]
+
+autodoc_default_options = {
+    'member-order': 'bysource',
+    'undoc-members': False,
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
