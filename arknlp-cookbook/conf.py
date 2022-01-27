@@ -18,8 +18,8 @@ sys.path.insert(0, os.path.abspath('../ark_nlp/'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'arknlp-cookbook'
-copyright = '2021, Xiang Wang'
+project = 'ark-nlp'
+copyright = '2021, DataArk'
 author = 'Xiang Wang'
 
 # The full version, including alpha/beta/rc tags
@@ -70,9 +70,9 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", ".ipynb_checkpoints"]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 
-import sphinx_rtd_theme
+# import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+# html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
