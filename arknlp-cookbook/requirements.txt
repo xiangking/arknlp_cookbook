@@ -1,0 +1,11 @@
+# Defining the exact version will make sure things don't break
+
+torch >= 1.0.0
+tqdm >= 4.27.0
+jieba >= 0.42.1
+transformers >= 3.0.0
+zhon >= 1.1.5
+scipy >= 1.2.0
+scikit-learn >= 0.17.0
+scikit-learn >= 0.0.6
+pandas >= 1.0.0
